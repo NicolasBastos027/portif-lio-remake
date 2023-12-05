@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300&display=swap');
+
+:root {
+    --cor-azul-claro: #50B6E2;
+    --cor-azul-escuro: #001C30;
+    --cor-fundo-linguagens: rgb(59, 90, 136);
+}
+
+@keyframes animacao_texto_vazado {
+    0% {}
+
+    50% {
+        bottom: 300px;
+    }
+
+    100% {}
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-azul-escuro);
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5em 0 5em;
+}
+
+.logo {
+    width: 78px;
+    height: 128px;
+}
+
+.header_texto {
+    text-decoration: none;
+    color: #E7EAF1;
+    font-family: K2D;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+}
+
+.script_estilo {
+    border-radius: 10px;
+    background: #2A5676;
+    width: 231px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.c_estilo {
+    width: 72px;
+    height: 62px;
+    border-radius: 10px;
+    background: #2A5676;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.react {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    width: 128px;
+    height: 62px;
+    border-radius: 10px;
+    background: #2A5676;
+}
+
+.htmlcss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    width: 128px;
+    height: 62px;
+    border-radius: 10px;
+    background: #2A5676;
+}
+.especialidades{
+    display: flex;
+    gap: 8px;
+}
+.separado{
+    grid-template-columns: 50%;
+}
+.foto_div {
+    margin: 0 5em 0 5em;
+}
+
+.foto {
+    width: 480px;
+    height: 480px;
+    border-radius: 37px;
+    border: var(--cor-azul-claro) solid 5px;
+}
+
+.introducao {
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.software_developer_texto {
+    color: #E7EAF1;
+    text-shadow: -4px 3px 0px #2A5676;
+    font-family: K2D;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+}
+
+
+.textos_developer {
+    /* position: relative; */
+    margin-bottom: 3em;
+}
+
+.texto_dev_paragrafo1 {
+    font-family: 'Kantumruy Pro';
+    color: #E7EAF1;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 1em;
+}
+
+
+.texto_azul {
+    font-family: 'Kantumruy Pro';
+    color: var(--cor-azul-claro);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.titulo_linguagens {
+    color: var(--cor-azul-claro);
+    font-family: K2D;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    margin-bottom: 1em;
+}
+
+.linguagens {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_linguagens {
+    margin-top: 6em;
+}
+
+.linguagens_elementos_geral {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 4em;
+    margin-left: 4em;
+}
+.linguagens_elementos_dois {
+    display: grid;
+    grid-template-columns: 20% 33% 1% 40%;
+    padding: 4em;
+    
+}
+
+.linguagens_elementos {
+    justify-content: space-between;
+    gap: 129px;
+    width: 395px;
+    height: 654px;
+    background-color: var(--cor-fundo-linguagens);
+}
+
+.elemento_titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000;
+    font-family: K2D;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 275;
+    line-height: normal;
+    padding: 1em;
+    background-color: var(--cor-fundo-linguagens);
+}
+
+.elemento_titulo_linguagem {
+    margin-left: 10px;
+    background-color: var(--cor-fundo-linguagens);
+
+}
+
+.imagem_linguagens {
+    width: 140px;
+    height: 140px;
+    background-color: var(--cor-fundo-linguagens);
+}
+
+.elemento_texto {
+    color: #000;
+    font-family: Kantumruy Pro;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 1em;
+    background-color: var(--cor-fundo-linguagens);
+}
+
+.sobre_mim_geral {
+    display: flex;
+    flex-direction: row;
+}
+
+.img_teatro {
+    width: 512px;
+    height: 512px;
+}
+
+.texto_sobre_mim {
+    color: #E7EAF1;
+    font-family: Kantumruy Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 0.4em;
+    width: 60%;
+    height: 615px;
+    margin-left: 5em;
+}
+
+.img_grafo {
+    width: 446px;
+    height: 446px;
+    margin-right: 10em;
+}
+
+/* area dos hovers */
+.header_texto:hover {
+    transition: 0.5s;
+    color: var(--cor-azul-claro);
+}
+
+.imagem_projetos {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    transform: translateX(400%);
+    transition: transform 0.4s ease;
+}
+
+.imagem_projetos.show {
+    transform: translateX(0)
+}
+
+.imagem_projetos:nth-of-type(even) {
+    transform: translateX(-400%);
+}
