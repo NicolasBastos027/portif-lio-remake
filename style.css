@@ -96,13 +96,16 @@ body {
     border-radius: 10px;
     background: #2A5676;
 }
-.especialidades{
+
+.especialidades {
     display: flex;
     gap: 8px;
 }
-.separado{
+
+.separado {
     grid-template-columns: 50%;
 }
+
 .foto_div {
     margin: 0 5em 0 5em;
 }
@@ -181,11 +184,12 @@ body {
     padding: 4em;
     margin-left: 4em;
 }
+
 .linguagens_elementos_dois {
     display: grid;
     grid-template-columns: 20% 33% 1% 40%;
     padding: 4em;
-    
+
 }
 
 .linguagens_elementos {
@@ -239,8 +243,10 @@ body {
 }
 
 .img_teatro {
-    width: 512px;
-    height: 512px;
+    width: 412px;
+    height: 412px;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
 .texto_sobre_mim {
@@ -252,8 +258,9 @@ body {
     line-height: normal;
     margin-left: 0.4em;
     width: 60%;
-    height: 615px;
+
     margin-left: 5em;
+    margin-right: 1em;
 }
 
 .img_grafo {
@@ -269,17 +276,49 @@ body {
 }
 
 .imagem_projetos {
-    margin: 0;
-    padding: 0;
-    width: 90%;
-    transform: translateX(400%);
-    transition: transform 0.4s ease;
+    
+}
+.projetos{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+.div_texto {
+    background-color: #000B13;
+    height: 161px;
 }
 
-.imagem_projetos.show {
-    transform: translateX(0)
+.texto_imagens_titulo {
+    color: #50B6E2;
+    font-family: 'K2D';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #000B13 ;
+    padding: 10px;
 }
 
-.imagem_projetos:nth-of-type(even) {
-    transform: translateX(-400%);
+.texto_imagens {
+    color: #E7EAF1;
+    font-family: 'Kantumruy Pro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #000B13 ;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.texto_imagens_click {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #000B13 ;
+    margin-left: 10px;
+   
 }
