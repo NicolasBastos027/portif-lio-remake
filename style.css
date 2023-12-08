@@ -200,6 +200,63 @@ body {
     background-color: var(--cor-fundo-linguagens);
 }
 
+
+.js:hover {
+    width: 410px;
+    height: 680px;
+    box-shadow: #9faa03 1px 1px 200px;
+    animation: 1s;
+}
+
+.rea:hover {
+    width: 410px;
+    height: 680px;
+    box-shadow: #037baa 1px 1px 200px;
+    animation: 1s;
+}
+
+.type:hover {
+    width: 410px;
+    height: 680px;
+    box-shadow: #0407c7 1px 1px 200px;
+    animation: 1s;
+}
+
+.c:hover {
+    width: 410px;
+    height: 680px;
+    box-shadow: #4623a8 1px 1px 200px;
+    animation: 1s;
+}
+
+.cpp:hover {
+    width: 410px;
+    height: 680px;
+    box-shadow: #064be0 1px 1px 200px;
+    animation: 1s;
+}
+
+.delphi:hover {
+    width: 410px;
+    height: 680px;
+    box-shadow: rgb(146, 7, 37) 1px 1px 200px;
+    animation: 1s;
+}
+
+.html:hover {
+    width: 410px;
+    height: 680px;
+    box-shadow: rgb(240, 76, 11) 1px 1px 200px;
+    animation: 1s;
+}
+
+.css:hover {
+    width: 410px;
+    height: 680px;
+    box-shadow: #064be0 1px 1px 200px;
+    animation: 1s;
+}
+
 .elemento_titulo {
     display: flex;
     flex-direction: row;
@@ -263,6 +320,12 @@ body {
     margin-right: 1em;
 }
 
+.todos_projetos {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
 .img_grafo {
     width: 446px;
     height: 446px;
@@ -276,13 +339,16 @@ body {
 }
 
 .imagem_projetos {
-    
+    width: 700px;
+    height: 324.63px;
 }
-.projetos{
+
+.projetos {
     display: flex;
     flex-direction: column;
     width: 700px;
 }
+
 .div_texto {
     background-color: #000B13;
     height: 161px;
@@ -295,7 +361,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background-color: #000B13 ;
+    background-color: #000B13;
     padding: 10px;
 }
 
@@ -306,7 +372,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    background-color: #000B13 ;
+    background-color: #000B13;
     margin-left: 10px;
     margin-bottom: 10px;
 }
@@ -318,7 +384,60 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    background-color: #000B13 ;
+    background-color: #000B13;
     margin-left: 10px;
-   
+
+}
+.contato{
+    display: flex;
+    justify-content: center;
+    margin: 0 300px 30px ;
+}
+.div_contato{
+    background-color: #000B13;
+    height: 300px;
+    padding: 39px;
+
+}
+.titulo_contato {
+    color: #50B6E2;
+    font-family: 'K2D';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #000B13;
+    padding: 10px;
+}
+
+.texto_contato {
+    color: #E7EAF1;
+    font-family: 'Kantumruy Pro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 6px;
+}
+a{
+    color: #E7EAF1;
+    font-family: 'Kantumruy Pro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.icons{
+
+}
+.botao_github{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    border: 1px solid #2d7cb4;
+    padding: 9px;
+    border-radius: 9px;
 }
